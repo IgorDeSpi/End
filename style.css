@@ -1,0 +1,43 @@
+.woup{
+    font-size: 200%;
+}
+.woup a:link{
+    color: rgb(0, 0, 0);
+}
+.woup a:visited{
+    color: black;
+}
+.woup a:hover{
+    color: rgb(61, 128, 150);
+}
+
+.pouw{
+    max-width: auto;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.ioup{
+    max-width: auto;
+    height: 150px;
+}
+.loul{
+    max-width: auto;
+    height: 300px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1024px){
+    .ioup{
+        height: auto;
+        max-width: auto;
+    }
+    .loul{
+        max-width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .pouw{
+        height: fit-content;
+        max-width: auto;
+    }
+}
