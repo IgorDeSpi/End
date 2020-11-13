@@ -11,24 +11,18 @@
     color: rgb(61, 128, 150);
 }
 
-.pouw{
-    max-width: auto;
-    max-height: 300px;
-    overflow-y: scroll;
-}
-
 .ioup{
     max-width: auto;
     height: 150px;
 }
 .loul{
     max-width: auto;
-    height: 300px;
-    overflow: hidden;
+    height: fit-content;
 }
 .is-horizontal-center{
     justify-content: center;
 }
+
 @media only screen and (max-width: 1024px){
     .ioup{
         height: auto;
@@ -38,9 +32,5 @@
         max-width: auto;
         height: auto;
         overflow: hidden;
-    }
-    .pouw{
-        height: fit-content;
-        max-width: auto;
     }
 }

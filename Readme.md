@@ -14,3 +14,8 @@ We had to find different informations about each item of our list (pic, link, ca
 On the second day we had to build the website of our project.  
 I used the framework [Bulma](https://bulma.io/) to help myself to build the structure of my website.  
 I added also a little bit of personal *CSS* to fix some things.
+
+### Day Three: Rebuilding the website only using JS code:
+
+On the third day we had tu build again all the website but only using some *JS* code.  
+That was a bit difficult for me but I finally did it.
